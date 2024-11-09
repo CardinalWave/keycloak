@@ -1,0 +1,21 @@
+{
+  "id": "cw_auth_realm",
+  "realm": "cw_auth_realm",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "PythonClient",
+      "name": "PythonClient",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": true,
+      "redirectUris": ["*"],
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": true,
+      "serviceAccountsEnabled": true,
+      "authorizationServicesEnabled": true
+    }
+  ]
+}
+
