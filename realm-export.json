@@ -1,5 +1,6 @@
 {
   "realm": "master-custom",
+  "enabled": true,
   "clients": [
     {
       "clientId": "PythonClient",
